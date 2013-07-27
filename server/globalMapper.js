@@ -1,15 +1,14 @@
-var staticMapper = require('./staticMapper.js');
+var staticMapper = require('./staticMapper.js'),
+    compile = require('./sys/compile.js');
+
 var globalMapper= {
   className: 'globalMapper',
   ext: ['/**.html', '/'],
   process: function(req, res){
-    
-    if(req.url == '/'){
-      return staticMapper._process(req, res, '/html/index.html', false);
-    }
-    
-    return staticMapper._process(req, res, '/html' + req.url, false);
+    var url = (req.url == '/' ? '/index.html' : req.url );
+
+    return this.parent('process', [req, res, '/html' + url]);
   }
 };
 
-module.exports = globalMapper;
+module.exports = compile.do(globalMapper, staticMapper);

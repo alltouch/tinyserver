@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Главная | Make a wish</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="/css/ie.css"/>
+    <![endif]-->
+    <meta charset="utf-8" http-equiv="content-type">
+    <script type="text/javascript" src="/js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.placeholder.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            //main window open
+            var slider = $(".slider");
+            var button_open = $("#open");
+            var button_close = $("#close");
+            button_open.click(function(){
+                if (!slider.hasClass("open")) {
+                    slider.animate({"height": "1270px"}, "slow").addClass("open");
+                } else {
+                    slider.animate({"height": "0px"}, "slow").removeClass("open");
+                }
+             });
+            button_close.click(function(){
+                slider.animate({"height": "0px"}, "slow").removeClass("open");
+            });
+            //modal window
+            var overlay = $(".overlay");
+            var button_modal = $(".modal");
+            var popup = $("#popup");
+            var docHeight = $(document).height();
+            button_modal.click(function(){
+                overlay.fadeIn();
+                overlay.height(docHeight);
+                popup.fadeIn(300);
+            });
+            overlay.click(function(){
+                $(this).fadeOut();
+                popup.fadeOut();
+            });
+            //placeholder
+            $("input[placeholder]").placeholder();
+        });
+    </script>
+</head>
+<body>
+    <div class="layout">
+        <div class="content">
+            <div class="wrap">
+                <div class="header">
+                    <a href="#" class="logo">link to mainpage</a>
+                    <ul class="nav">
+                        <li><a href="#" class="modal">О коучинге</a></li>
+                        <li><a href="#" class="modal">Блог</a></li>
+                        <li><a href="#" class="modal">О нас</a></li>
+                        <li><a href="#" class="modal">Контакты</a></li>
+                    </ul>
+                    <div class="contact">
+                        <a href="#" class="modal">Заказать звонок</a>
+                        <span>(096) 888 98 28</span>
+                    </div>
+                </div>
+                <div class="main_block">
+                    <h2>помогаем достигать цели и желания</h2>
+                    <p>Люди часто откладывают на потом свои мечты и желания. Еще чаще останавливаются на полпути, не зная как преодолеть очередное препятствие. Обычно причина заключается в том, что не у кого спросить что с этим делать.</p>
+                    <p class="ie_2">Мы помогаем людям разобраться в себе, найти свои настоящие цели и желания, а также разобраться в том, что мешаем им осуществиться.</p>
+                    <div class="phone">
+                        <span>096</span>
+                        <span class="ie_1">888-98-28</span>
+                    </div>
+                    <div class="consl">
+                        <span>Прямо сейчас!</span>
+                        <div class="modal">Запишись на бесплатную консультацию</div>
+                    </div>
+                    <div class="more">
+                        <p>Если у тебя есть вопросы
+                            по поводу нашей работы
+                            ты можешь прочитать </p>
+                        <span id="open"></span>
+                        <p>о нашей работе</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="wrap">
+                    <div class="tit">Наши услуги называются <div class="modal">коучингом<span class="coach"></span></div></div>
+                    <p class="info">Мы в мягкой и доступной форме с помощью вопросов будем приводить тебя к понимаю себя, своей жизни и желаний. Коуч не дает ответов как жить проще. Коуч задает вопросы с помощью которых ты понимаешь что-то новое для себя. Далее вместе с коучем ты составляешь план действий на ближайшее время и реализовываешь его.</p>
+                    <div class="legend">
+                        <div class="not">Как не стоит делать:</div>
+                        <div class="yes">Работы коуча:</div>
+                    </div>
+                    <div class="dialog">
+                        <div class="left">
+                            <div class="mess">
+                                Я хочу ХВОХ  —     <br>
+                                Зачем? —           <br>
+                                Я буду играть. Это здорово. Там можно двигаться. — <br>
+                                А почему у тебя все еще его нет? — <br>
+                                Потому что ты не покупаешь! — <br>
+                                А почему я не покупаю? —           <br>
+                                Потому что у тебя денег нет. —          <br>
+                                Совсем-совсем нет? —                         <br>
+                                Есть, но на ХВОХ ты их не потратишь —             <br>
+                                А почему? —                                            <br>
+                                Потому что ты их тратишь на другие вещи. — <br>
+                                На какие? — <br>
+                                Наверное, на более нужные. — <br>
+                                Что может изменить ситуацию? — <br>
+                                Если мы будем меньше тратить? — <br>
+                                От чего ты готов отказаться ради ХВОХ? — <br>
+                                От кино и конфет — <br>
+                                Можешь посчитать, сколько за месяц сэкономишь таким образом? — <br>
+                                Около тысячи — <br>
+                                Сколько месяцев будешь так копить на ХВОХ? — <br>
+                                Полтора года. — <br>
+                                Можешь подождать полтора года? Пожить полтора года без кино и конфет? — <br>
+                                Нет — <br>
+                                Есть еще идеи? — <br>
+                                Я пойду работать? — <br>
+                                Куда тебя возьмут в 11 лет работать? Кто тебе будет платить? — <br>
+                                Никуда. Не знаю. — <br>
+                                Пока ты этого не знаешь, пока не придумал, как зарабатывать деньги, что еще ты — можешь предложить для достижения цели? — <br>
+                                Тебе надо больше зарабатывать. — <br>
+                                Прекрасно. Можешь подсказать, как мне больше зарабатывать? — <br>
+                                Больше работать. — <br>
+                                А где мне взять на это время? — <br>
+                                Что-то другое не делать. — <br>
+                                Например? Не спать, не есть, не отдыхать я не могу. Куда еще уходит мое время? — <br>
+                                Ты еще ходишь в магазин, готовишь, моешь посуду. — <br>
+                                Что еще? — <br>
+                                Еще пылесосишь — <br>
+                                Что из этого я могу не делать? Кто будет делать это вместо меня? — <br>
+                                Я могу пылесосить, мыть посуду. — <br>
+                                Супер! Я как раз собиралась покупать посудомойку. Она стоит столько же, как ХВОХ.  Но если посуду будешь мыть ты, то посудомойка мне не нужна. Ты готов мыть  посуду каждый день, если мы купим ХВОХ? <br>
+                                Конечно! — <br>
+                                Ты готов мыть полгода посуду, пока снова не накопим на посудомойку? — <br>
+                                Готов. — <br>
+                                А если ты не выполнишь договоренность? Если я куплю ХВОХ, а ты откажешься мыть  посуду? Как мне тогда поступить? <br>
+                                Ну, будет честно, если ты заберешь у меня ХВОХ
+                            </div>
+                            <div class="name">
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама <br>
+                                Сын <br>
+                                Мама
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="name">
+                                Сын: <br>
+                                Мама:
+                            </div>
+                            <div class="mess">
+                                — Я хочу ХВОХ!<br>
+                                — Давай я куплю, но за это ты всегда будешь мыть посуду в течение года, кроме выходного дня. А если не будешь, то я тебе больше никогда ничего не куплю.
+                            </div>
+                        </div>
+                        <div class="tr1"></div>
+                        <div class="tr2"></div>
+                        <div class="tr3"></div>
+                        <div class="tr4"></div>
+                        <div class="tr5"></div>
+                    </div>
+                    <div class="resume">
+                        Итог:<br>Мать и сын в двух диалогах договорились до одного и того же, но навязанные договоренности выполняются менее охотно, чем те, до которых дошел ты сам.
+                    </div>
+                    <form action="/">
+                        <div class="tit">Остались вопросы или сомнения?</div>
+                        <input type="text" placeholder="Твое имя" class="ie_3"/>
+                        <input type="text" placeholder="Оставь свой телефон" value="Оставь свой телефон"/>
+                        <input type="submit" value="ок"/>
+                        <p>и мы продемонстрируем<br>как мы можем быть полезны для тебя!</p>
+                    </form>
+                    <span id="close">Свернуть</span>
+                </div>
+            </div>
+            <div class="hfooter"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="wrap">
+            <span class="call modal">заказать звонок</span>
+            <p>ывапыв апывапывапывап ывапывадпрб дсломирч дсломти чдлосрми длор двылоарпы дловра пдлос чтдмлоирс мдлоирч сдломиры дловрп рва пдлыорв адплоыр вапывапывапывапывапывп<br><br>2013 Make a wish Copyright</p>
+        </div>
+    </div>
+    <!-- modal window -->
+    <div class="popup" id="popup">
+        <form action="/">
+            <div class="tit">Закажи звонок</div>
+            <input type="text" placeholder="Твое имя" class="ie_4" value="Твое имя"/>
+            <input type="text" placeholder="Оставь свой телефон" value="Оставь свой телефон"/>
+            <input type="submit" value="ок"/>
+            <p>и мы продемонстрируем<br>как мы можем быть полезны для тебя!</p>
+        </form>
+    </div>
+    <div class="overlay"></div>
+</body>
+</html>
