@@ -1,0 +1,1149 @@
+Server running at http://0.0.0.0:3000/
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+mapping founded for /
+globalMapper : Compiled path app/html/index.html
+globalMapper : Static file found. Size: 16014
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+mapping founded for /css/style.css
+staticMapper : Compiled path app/css/style.css
+staticMapper : Static file found. Size: 15594
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+Checking ^/js/.*$
+mapping founded for /js/jquery-1.10.1.min.js
+staticMapper : Compiled path app/js/jquery-1.10.1.min.js
+staticMapper : Static file found. Size: 93064
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+Checking ^/js/.*$
+mapping founded for /js/jquery.placeholder.js
+staticMapper : Compiled path app/js/jquery.placeholder.js
+staticMapper : Static file found. Size: 4218
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/phone.png
+staticMapper : Compiled path app/images/phone.png
+staticMapper : Static file found. Size: 2067
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/more.png
+staticMapper : Compiled path app/images/more.png
+staticMapper : Static file found. Size: 5528
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/slider.png
+staticMapper : Compiled path app/images/slider.png
+staticMapper : Static file found. Size: 426500
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/bg_all.png
+staticMapper : Compiled path app/images/bg_all.png
+staticMapper : Static file found. Size: 1240450
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/marker.jpg
+staticMapper : Compiled path app/images/marker.jpg
+staticMapper : Static file found. Size: 767
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+mapping founded for /fonts/calibri.woff
+staticMapper : Compiled path app/fonts/calibri.woff
+staticMapper : Static file found. Size: 142140
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/coach.png
+staticMapper : Compiled path app/images/coach.png
+staticMapper : Static file found. Size: 333
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/contact.jpg
+staticMapper : Compiled path app/images/contact.jpg
+staticMapper : Static file found. Size: 1034
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/not.png
+staticMapper : Compiled path app/images/not.png
+staticMapper : Static file found. Size: 452
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/yes.png
+staticMapper : Compiled path app/images/yes.png
+staticMapper : Static file found. Size: 696
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/tr.jpg
+staticMapper : Compiled path app/images/tr.jpg
+staticMapper : Static file found. Size: 6363
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/call.png
+staticMapper : Compiled path app/images/call.png
+staticMapper : Static file found. Size: 772
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/logo.png
+staticMapper : Compiled path app/images/logo.png
+staticMapper : Static file found. Size: 2088
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/popup.png
+staticMapper : Compiled path app/images/popup.png
+staticMapper : Static file found. Size: 59270
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+Checking ^/js/.*$
+Checking errorMapper
+Checking ^.*$
+mapping founded for /favicon.ico
+errorMapper : File not found for /favicon.ico
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+mapping founded for /
+globalMapper : Compiled path app/html/index.html
+globalMapper : Static file found. Size: 16014
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+mapping founded for /css/style.css
+staticMapper : Compiled path app/css/style.css
+staticMapper : Static file found. Size: 15594
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+Checking ^/js/.*$
+mapping founded for /js/jquery-1.10.1.min.js
+staticMapper : Compiled path app/js/jquery-1.10.1.min.js
+staticMapper : Static file found. Size: 93064
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+Checking ^/js/.*$
+mapping founded for /js/jquery.placeholder.js
+staticMapper : Compiled path app/js/jquery.placeholder.js
+staticMapper : Static file found. Size: 4218
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/contact.jpg
+staticMapper : Compiled path app/images/contact.jpg
+staticMapper : Static file found. Size: 1034
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/slider.png
+staticMapper : Compiled path app/images/slider.png
+staticMapper : Static file found. Size: 426500
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/more.png
+staticMapper : Compiled path app/images/more.png
+staticMapper : Static file found. Size: 5528
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/phone.png
+staticMapper : Compiled path app/images/phone.png
+staticMapper : Static file found. Size: 2067
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/not.png
+staticMapper : Compiled path app/images/not.png
+staticMapper : Static file found. Size: 452
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/yes.png
+staticMapper : Compiled path app/images/yes.png
+staticMapper : Static file found. Size: 696
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+mapping founded for /fonts/calibri.woff
+staticMapper : Compiled path app/fonts/calibri.woff
+staticMapper : Static file found. Size: 142140
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/coach.png
+staticMapper : Compiled path app/images/coach.png
+staticMapper : Static file found. Size: 333
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/marker.jpg
+staticMapper : Compiled path app/images/marker.jpg
+staticMapper : Static file found. Size: 767
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/tr.jpg
+staticMapper : Compiled path app/images/tr.jpg
+staticMapper : Static file found. Size: 6363
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/popup.png
+staticMapper : Compiled path app/images/popup.png
+staticMapper : Static file found. Size: 59270
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/logo.png
+staticMapper : Compiled path app/images/logo.png
+staticMapper : Static file found. Size: 2088
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/call.png
+staticMapper : Compiled path app/images/call.png
+staticMapper : Static file found. Size: 772
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/bg_all.png
+staticMapper : Compiled path app/images/bg_all.png
+staticMapper : Static file found. Size: 1240450
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+Checking ^/js/.*$
+Checking errorMapper
+Checking ^.*$
+mapping founded for /favicon.ico
+errorMapper : File not found for /favicon.ico
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+mapping founded for /
+globalMapper : Compiled path app/html/index.html
+globalMapper : Static file found. Size: 16014
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+mapping founded for /css/style.css
+staticMapper : Compiled path app/css/style.css
+staticMapper : Static file found. Size: 15594
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+Checking ^/js/.*$
+mapping founded for /js/jquery-1.10.1.min.js
+staticMapper : Compiled path app/js/jquery-1.10.1.min.js
+staticMapper : Static file found. Size: 93064
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+Checking ^/js/.*$
+mapping founded for /js/jquery.placeholder.js
+staticMapper : Compiled path app/js/jquery.placeholder.js
+staticMapper : Static file found. Size: 4218
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/bg_all.png
+staticMapper : Compiled path app/images/bg_all.png
+staticMapper : Static file found. Size: 1240450
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/slider.png
+staticMapper : Compiled path app/images/slider.png
+staticMapper : Static file found. Size: 426500
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/contact.jpg
+staticMapper : Compiled path app/images/contact.jpg
+staticMapper : Static file found. Size: 1034
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/more.png
+staticMapper : Compiled path app/images/more.png
+staticMapper : Static file found. Size: 5528
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/phone.png
+staticMapper : Compiled path app/images/phone.png
+staticMapper : Static file found. Size: 2067
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+mapping founded for /fonts/calibri.woff
+staticMapper : Compiled path app/fonts/calibri.woff
+staticMapper : Static file found. Size: 142140
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/coach.png
+staticMapper : Compiled path app/images/coach.png
+staticMapper : Static file found. Size: 333
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/not.png
+staticMapper : Compiled path app/images/not.png
+staticMapper : Static file found. Size: 452
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/yes.png
+staticMapper : Compiled path app/images/yes.png
+staticMapper : Static file found. Size: 696
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/marker.jpg
+staticMapper : Compiled path app/images/marker.jpg
+staticMapper : Static file found. Size: 767
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/tr.jpg
+staticMapper : Compiled path app/images/tr.jpg
+staticMapper : Static file found. Size: 6363
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/call.png
+staticMapper : Compiled path app/images/call.png
+staticMapper : Static file found. Size: 772
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/logo.png
+staticMapper : Compiled path app/images/logo.png
+staticMapper : Static file found. Size: 2088
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/popup.png
+staticMapper : Compiled path app/images/popup.png
+staticMapper : Static file found. Size: 59270
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+Checking ^/js/.*$
+Checking errorMapper
+Checking ^.*$
+mapping founded for /favicon.ico
+errorMapper : File not found for /favicon.ico
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+mapping founded for /
+globalMapper : Compiled path app/html/index.html
+globalMapper : Static file found. Size: 16014
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+mapping founded for /css/style.css
+staticMapper : Compiled path app/css/style.css
+staticMapper : Static file found. Size: 15594
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+Checking ^/js/.*$
+mapping founded for /js/jquery.placeholder.js
+staticMapper : Compiled path app/js/jquery.placeholder.js
+staticMapper : Static file found. Size: 4218
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+Checking ^/js/.*$
+mapping founded for /js/jquery-1.10.1.min.js
+staticMapper : Compiled path app/js/jquery-1.10.1.min.js
+staticMapper : Static file found. Size: 93064
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/bg_all.png
+staticMapper : Compiled path app/images/bg_all.png
+staticMapper : Static file found. Size: 1240450
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/contact.jpg
+staticMapper : Compiled path app/images/contact.jpg
+staticMapper : Static file found. Size: 1034
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/phone.png
+staticMapper : Compiled path app/images/phone.png
+staticMapper : Static file found. Size: 2067
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/more.png
+staticMapper : Compiled path app/images/more.png
+staticMapper : Static file found. Size: 5528
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+mapping founded for /fonts/calibri.woff
+staticMapper : Compiled path app/fonts/calibri.woff
+staticMapper : Static file found. Size: 142140
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/marker.jpg
+staticMapper : Compiled path app/images/marker.jpg
+staticMapper : Static file found. Size: 767
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/slider.png
+staticMapper : Compiled path app/images/slider.png
+staticMapper : Static file found. Size: 426500
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/coach.png
+staticMapper : Compiled path app/images/coach.png
+staticMapper : Static file found. Size: 333
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/not.png
+staticMapper : Compiled path app/images/not.png
+staticMapper : Static file found. Size: 452
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/yes.png
+staticMapper : Compiled path app/images/yes.png
+staticMapper : Static file found. Size: 696
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/tr.jpg
+staticMapper : Compiled path app/images/tr.jpg
+staticMapper : Static file found. Size: 6363
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/call.png
+staticMapper : Compiled path app/images/call.png
+staticMapper : Static file found. Size: 772
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/logo.png
+staticMapper : Compiled path app/images/logo.png
+staticMapper : Static file found. Size: 2088
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/popup.png
+staticMapper : Compiled path app/images/popup.png
+staticMapper : Static file found. Size: 59270
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+Checking ^/js/.*$
+Checking errorMapper
+Checking ^.*$
+mapping founded for /favicon.ico
+errorMapper : File not found for /favicon.ico
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+Checking ^/js/.*$
+Checking errorMapper
+Checking ^.*$
+mapping founded for /rkdurdksfsdkfj
+errorMapper : File not found for /rkdurdksfsdkfj
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+Checking ^/js/.*$
+Checking errorMapper
+Checking ^.*$
+mapping founded for /favicon.ico
+errorMapper : File not found for /favicon.ico
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+mapping founded for /
+globalMapper : Compiled path app/html/index.html
+globalMapper : Static file found. Size: 16014
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+mapping founded for /css/style.css
+staticMapper : Compiled path app/css/style.css
+staticMapper : Static file found. Size: 15594
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+Checking ^/js/.*$
+mapping founded for /js/jquery-1.10.1.min.js
+staticMapper : Compiled path app/js/jquery-1.10.1.min.js
+staticMapper : Static file found. Size: 93064
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+Checking ^/js/.*$
+mapping founded for /js/jquery.placeholder.js
+staticMapper : Compiled path app/js/jquery.placeholder.js
+staticMapper : Static file found. Size: 4218
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/phone.png
+staticMapper : Compiled path app/images/phone.png
+staticMapper : Static file found. Size: 2067
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/slider.png
+staticMapper : Compiled path app/images/slider.png
+staticMapper : Static file found. Size: 426500
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/more.png
+staticMapper : Compiled path app/images/more.png
+staticMapper : Static file found. Size: 5528
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/bg_all.png
+staticMapper : Compiled path app/images/bg_all.png
+staticMapper : Static file found. Size: 1240450
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/contact.jpg
+staticMapper : Compiled path app/images/contact.jpg
+staticMapper : Static file found. Size: 1034
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/marker.jpg
+staticMapper : Compiled path app/images/marker.jpg
+staticMapper : Static file found. Size: 767
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+mapping founded for /fonts/calibri.woff
+staticMapper : Compiled path app/fonts/calibri.woff
+staticMapper : Static file found. Size: 142140
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/coach.png
+staticMapper : Compiled path app/images/coach.png
+staticMapper : Static file found. Size: 333
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/not.png
+staticMapper : Compiled path app/images/not.png
+staticMapper : Static file found. Size: 452
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/yes.png
+staticMapper : Compiled path app/images/yes.png
+staticMapper : Static file found. Size: 696
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/tr.jpg
+staticMapper : Compiled path app/images/tr.jpg
+staticMapper : Static file found. Size: 6363
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/call.png
+staticMapper : Compiled path app/images/call.png
+staticMapper : Static file found. Size: 772
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/popup.png
+staticMapper : Compiled path app/images/popup.png
+staticMapper : Static file found. Size: 59270
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+mapping founded for /images/logo.png
+staticMapper : Compiled path app/images/logo.png
+staticMapper : Static file found. Size: 2088
+Result status ok
+Checking globalMapper
+Checking ^/[^/]*.html$
+Checking ^/$
+Checking staticMapper
+Checking ^/html/.*$
+Checking ^/css/.*$
+Checking ^/fonts/.*$
+Checking ^/images/.*$
+Checking ^/js/.*$
+Checking errorMapper
+Checking ^.*$
+mapping founded for /favicon.ico
+errorMapper : File not found for /favicon.ico
+Result status ok
