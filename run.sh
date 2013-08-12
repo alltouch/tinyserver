@@ -1,1 +1,0 @@
-nodemon -L --watch server server.js
