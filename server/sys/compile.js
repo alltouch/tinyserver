@@ -24,4 +24,21 @@ module.exports.do = function(obj, superClass){
     return newClass;
 };
 
+var cache = {};
+module.exports.singleton = function(obj, superClass, callInit){
+    if(cache[obj.className]){
+        return cache[obj.className];
+    }
+
+    var cl = this.do(obj, superClass);
+    var singleton = new cl();
+    if(callInit){
+        singleton.init();
+    }
+
+    cache[obj.className] = singleton;
+
+    return singleton;
+};
+
 //todo call parent method

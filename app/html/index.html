@@ -9,56 +9,23 @@
     <meta charset="utf-8" http-equiv="content-type">
     <script type="text/javascript" src="/js/jquery-1.10.1.min.js"></script>
     <script type="text/javascript" src="/js/jquery.placeholder.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            //main window open
-            var slider = $(".slider");
-            var button_open = $("#open");
-            var button_close = $("#close");
-            button_open.click(function(){
-                if (!slider.hasClass("open")) {
-                    slider.animate({"height": "1270px"}, "slow").addClass("open");
-                } else {
-                    slider.animate({"height": "0px"}, "slow").removeClass("open");
-                }
-             });
-            button_close.click(function(){
-                slider.animate({"height": "0px"}, "slow").removeClass("open");
-            });
-            //modal window
-            var overlay = $(".overlay");
-            var button_modal = $(".modal");
-            var popup = $("#popup");
-            var docHeight = $(document).height();
-            button_modal.click(function(){
-                overlay.fadeIn();
-                overlay.height(docHeight);
-                popup.fadeIn(300);
-            });
-            overlay.click(function(){
-                $(this).fadeOut();
-                popup.fadeOut();
-            });
-            //placeholder
-            $("input[placeholder]").placeholder();
-        });
-    </script>
+    <script type="text/javascript" src="/js/main.js"></script>
 </head>
 <body>
     <div class="layout">
         <div class="content">
             <div class="wrap">
                 <div class="header">
-                    <a href="#" class="logo">link to mainpage</a>
+                    <a href="/" class="logo">link to mainpage</a>
                     <ul class="nav">
-                        <li><a href="#" class="modal">О коучинге</a></li>
-                        <li><a href="#" class="modal">Блог</a></li>
-                        <li><a href="#" class="modal">О нас</a></li>
-                        <li><a href="#" class="modal">Контакты</a></li>
+                        <li><a href="/blog/1-o-koychinge.html" class="modal">О коучинге</a></li>
+                        <li><a href="/blog/" class="modal">Блог</a></li>
+                        <li><a href="/contact.html" class="modal">О нас</a></li>
+                        <li><a href="/contact.html" class="modal">Контакты</a></li>
                     </ul>
                     <div class="contact">
-                        <a href="#" class="modal">Заказать звонок</a>
-                        <span>(096) 888 98 28</span>
+                        <a href="/contact.html" class="modal">Заказать звонок</a>
+                        <span>(067) 247 58 17</span>
                     </div>
                 </div>
                 <div class="main_block">
@@ -66,25 +33,28 @@
                     <p>Люди часто откладывают на потом свои мечты и желания. Еще чаще останавливаются на полпути, не зная как преодолеть очередное препятствие. Обычно причина заключается в том, что не у кого спросить что с этим делать.</p>
                     <p class="ie_2">Мы помогаем людям разобраться в себе, найти свои настоящие цели и желания, а также разобраться в том, что мешаем им осуществиться.</p>
                     <div class="phone">
-                        <span>096</span>
-                        <span class="ie_1">888-98-28</span>
+                        <span>067</span>
+                        <span class="ie_1">247-58-17</span>
                     </div>
                     <div class="consl">
                         <span>Прямо сейчас!</span>
-                        <div class="modal">Запишись на бесплатную консультацию</div>
+                        <a href="/contact.html" class="modal">Запишись на бесплатную консультацию</a>
                     </div>
                     <div class="more">
                         <p>Если у тебя есть вопросы
                             по поводу нашей работы
                             ты можешь прочитать </p>
                         <span id="open"></span>
-                        <p>о нашей работе</p>
+                        <p>здесь</p>
                     </div>
                 </div>
             </div>
             <div class="slider">
                 <div class="wrap">
-                    <div class="tit">Наши услуги называются <div class="modal">коучингом<span class="coach"></span></div></div>
+                    <div class="tit">
+                        Наши услуги называются
+                        <a class="modal" href="/blog/1-o-koychinge.html">коучингом<span class="coach"></span></a>
+                    </div>
                     <p class="info">Мы в мягкой и доступной форме с помощью вопросов будем приводить тебя к понимаю себя, своей жизни и желаний. Коуч не дает ответов как жить проще. Коуч задает вопросы с помощью которых ты понимаешь что-то новое для себя. Далее вместе с коучем ты составляешь план действий на ближайшее время и реализовываешь его.</p>
                     <div class="legend">
                         <div class="not">Как не стоит делать:</div>
@@ -232,14 +202,26 @@
     </div>
     <!-- modal window -->
     <div class="popup" id="popup">
-        <form action="/">
+        <form action="/action/call">
             <div class="tit">Закажи звонок</div>
-            <input type="text" placeholder="Твое имя" class="ie_4" value="Твое имя"/>
-            <input type="text" placeholder="Оставь свой телефон" value="Оставь свой телефон"/>
-            <input type="submit" value="ок"/>
+            <input type="text" name="name" placeholder="Твое имя" class="ie_4" />
+            <input type="text" name="phone" placeholder="Оставь свой телефон" />
+            <input class="submit" type="submit" value="ок"/>
+            <p class="error"></p>
             <p>и мы продемонстрируем<br>как мы можем быть полезны для тебя!</p>
         </form>
     </div>
     <div class="overlay"></div>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-43264409-1', 'makeawish.com.ua');
+        ga('send', 'pageview');
+
+    </script>
 </body>
 </html>

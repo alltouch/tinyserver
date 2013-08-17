@@ -148,7 +148,7 @@ body {
     letter-spacing: -1px;
     float: left;
 }
-.main_block .consl div {
+.main_block .consl a {
     float: left;
     clear: both;
     text-decoration: underline;
@@ -487,12 +487,17 @@ body {
 }
 .popup form p {
     display: block;
-    padding: 0 150px;
+    padding: 0 115px;
     float: left;
     color: #fff;
     margin: 10px 0 0 0;
     font-size: 16px;
 }
+.popup form p.error{
+    color: red;
+    height: 20px;
+}
+
 .overlay {
     display: none;
     background: #284374;

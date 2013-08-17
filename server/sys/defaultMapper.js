@@ -1,12 +1,10 @@
+var Logger = require('./logger.js');
+
 var defaultMapper = {
     className: 'defaultMapper',
     ext: [],
     log: function(){
-        var arr = [this.className, ':'];
-        for(var i =0; i < arguments.length; i++){
-            arr.push(arguments[i]);
-        }
-        console.log.apply(console, arr);
+        Logger.logArray(this.className, arguments);
     },
     process: function(){
         this.log('default process handler. should be overriden.');
