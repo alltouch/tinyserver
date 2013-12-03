@@ -5,5 +5,5 @@ var Logger = require('./server/sys/logger.js');
 http.createServer(function (req, res) {
   var status = !mappers.execute(req, res);
     Logger.log('Result status ' + (status ? 'ok' : 'bad'));
-}).listen(3000, '0.0.0.0');
-Logger.log('Server running at http://0.0.0.0:3000/');
+}).listen(process.env.PORT || 5000, '0.0.0.0');
+Logger.log('Server running at http://0.0.0.0:5000/');
