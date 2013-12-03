@@ -44,10 +44,7 @@ var Logger = {
         this.logFile = file;
 
         if(!fs.existsSync(file)){
-            console.log(process.cwd());
-            console.log(__filename);
-            console.log(__dirname);
-            var fd = fs.openSync(file.replace('log/', 'tmp/'), "a+");
+            var fd = fs.openSync("/app/" + file.replace('log/', 'tmp/'), "a+");
             fs.closeSync(fd);
         }
     },
