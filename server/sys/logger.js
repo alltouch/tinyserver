@@ -42,13 +42,12 @@ var Logger = {
         this.sysLog('Init log file :', file);
 
         this.logFile = file;
-
-        console.log('/app', fs.existsSync('/app'));
-        console.log('/tmp', fs.existsSync('/tmp'));
-        console.log('/log', fs.existsSync('/log'));
+        if(!fs.existsSync("log")){ //heroku
+            this.logFile = file.replace('log/', '/tmp/');
+        }
 
         if(!fs.existsSync(file)){
-            var fd = fs.openSync("/tmp/file.log", "a+");
+            var fd = fs.openSync(file, "a+");
             fs.closeSync(fd);
         }
     },
