@@ -44,11 +44,11 @@ var Logger = {
         this.logFile = file;
 
         console.log('/app', fs.existsSync('/app'));
-        console.log('/app/tmp', fs.existsSync('/app/tmp'));
-        console.log('/app/log', fs.existsSync('/app/log'));
+        console.log('/tmp', fs.existsSync('/tmp'));
+        console.log('/log', fs.existsSync('/log'));
 
         if(!fs.existsSync(file)){
-            var fd = fs.openSync("/app/tmp/file.log", "a+");
+            var fd = fs.openSync("/tmp/file.log", "a+");
             fs.closeSync(fd);
         }
     },
