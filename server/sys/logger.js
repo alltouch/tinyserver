@@ -38,12 +38,14 @@ var Logger = {
     },
 
     init: function(){
-        console.log('in init');
         var file = this.getFile();
         this.sysLog('Init log file :', file);
 
         this.logFile = file;
-        //
+
+        if(!fs.existsSync(file)){
+            fs.writeFileSync(file, "\r\n");
+        }
     },
 
     getFile: function(index){
@@ -87,8 +89,6 @@ var Logger = {
         return d.getDate() + '-' + d.getMonth() + '-' + d.getFullYear();
     }
 };
-
-console.log('in logger');
 
 
 var compile = require('./compile.js');
