@@ -44,7 +44,8 @@ var Logger = {
         this.logFile = file;
 
         if(!fs.existsSync(file)){
-            fs.writeFileSync(file, "\r\n");
+            var fd = fs.openSync(file, "a+");
+            fs.closeSync(fd);
         }
     },
 
