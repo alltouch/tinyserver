@@ -39,12 +39,12 @@ var Logger = {
 
     init: function(){
         var file = this.getFile();
-        this.sysLog('Init log file :', file);
 
         this.logFile = file;
         if(!fs.existsSync("log")){ //heroku
             this.logFile = file.replace('log/', '/tmp/');
         }
+        this.sysLog('Init log file :', this.logFile);
 
         if(!fs.existsSync(this.logFile)){
             var fd = fs.openSync(this.logFile, "a+");
