@@ -46,6 +46,11 @@ var Logger = {
             this.logFile = file.replace('log/', '/tmp/');
         }
 
+        console.log('app', fs.existsSync("app"));
+        console.log('controller', fs.existsSync("controller"));
+        console.log('server', fs.existsSync("server"));
+        console.log('log', fs.existsSync("log"));
+
         if(!fs.existsSync(file)){
             var fd = fs.openSync(file, "a+");
             fs.closeSync(fd);
