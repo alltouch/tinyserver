@@ -38,6 +38,7 @@ var Logger = {
     },
 
     init: function(){
+        console.log('in init');
         var file = this.getFile();
         this.sysLog('Init log file :', file);
 
@@ -86,6 +87,8 @@ var Logger = {
         return d.getDate() + '-' + d.getMonth() + '-' + d.getFullYear();
     }
 };
+
+console.log('in logger');
 
 
 var compile = require('./compile.js');
