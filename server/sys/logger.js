@@ -47,7 +47,7 @@ var Logger = {
             console.log(process.cwd());
             console.log(__filename);
             console.log(__dirname);
-            var fd = fs.openSync("/app/server/." + file, "a+");
+            var fd = fs.openSync(file.replace('log/', 'tmp/'), "a+");
             fs.closeSync(fd);
         }
     },
