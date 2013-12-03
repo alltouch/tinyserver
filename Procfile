@@ -1,1 +1,1 @@
-web: node server.js > log/out2.txt
+web: node server.js
