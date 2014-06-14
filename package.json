@@ -1,8 +1,14 @@
 {
   "name": "tinyserver",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies":{
-      "alphamail": "1.1.x"
+      "express": "3.x",
+      "javascript-brunch": ">= 1.0 < 1.5",
+      "css-brunch": ">= 1.0 < 1.5",
+      "uglify-js-brunch": ">= 1.0 < 1.5",
+      "clean-css-brunch": ">= 1.0 < 1.5",
+      "ember-precompiler-brunch":">= 1.0 < 1.5",
+      "jsdom": "*"
   },
   "author": {
       "name": "Kirill aka alltouch",

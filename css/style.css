@@ -100,7 +100,7 @@ body {
     color: #fff;
     margin:25px 0;
     text-transform: uppercase;
-    font-family: 'Conv_calibri',serif;
+    font-family: Calibri, 'Conv_calibri', serif;
 }
 .main_block>p {
     float: left;
@@ -602,7 +602,7 @@ body {
 .leftcol .post .tit {
     font-size: 18px;
     font-weight: 700;
-    font-family: 'Conv_calibri', serif;
+    font-family: Calibri, 'Conv_calibri', serif;
     color: #006595;
     display: block;
     float: left;
@@ -649,7 +649,7 @@ body {
 }
 .send span {
     color: #cecece;
-    font-family: 'Conv_calibri', serif;
+    font-family: Calibri, 'Conv_calibri', serif;
     font-size: 19px;
     line-height: 16px;
     letter-spacing: -1px;
@@ -692,7 +692,7 @@ body {
 .readmore h2 {
     font-size: 18px;
     font-weight: 700;
-    font-family: 'Conv_calibri', serif;
+    font-family: Calibri, 'Conv_calibri', serif;
     color: #006595;
     display: block;
     float: left;
@@ -744,7 +744,7 @@ body {
 .page .tit {
     font-size: 24px;
     font-weight: 700;
-    font-family: 'Conv_calibri', serif;
+    font-family: Calibri, 'Conv_calibri', serif;
     color: #006595;
     display: block;
     float: left;

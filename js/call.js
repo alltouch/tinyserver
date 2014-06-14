@@ -1,37 +1,4 @@
-$(document).ready(function(){
-    //main window open
-    var slider = $(".slider");
-    var button_open = $("#open");
-    var button_close = $("#close");
-    button_open.click(function(){
-        if (!slider.hasClass("open")) {
-            slider.animate({"height": "1270px"}, "slow").addClass("open");
-        } else {
-            slider.animate({"height": "0px"}, "slow").removeClass("open");
-        }
-    });
-    button_close.click(function(){
-        slider.animate({"height": "0px"}, "slow").removeClass("open");
-    });
-    //modal window
-    var overlay = $(".overlay");
-    var button_modal = $(".modal");
-    var popup = $("#popup");
-    var docHeight = $(document).height();
-    button_modal.click(function(){
-        overlay.fadeIn();
-        overlay.height(docHeight);
-        popup.fadeIn(300);
-        return false;
-    });
-    overlay.click(function(){
-        $(this).fadeOut();
-        popup.fadeOut();
-    });
-    //placeholder
-
-    $("input[placeholder]").placeholder();
-
+$(function(){
     var errorBlock = $('#popup .error');
     $('#popup form').submit(function(){
 
