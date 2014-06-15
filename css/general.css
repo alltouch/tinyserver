@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Conv_calibri';
+    src: url('/fonts/calibri.eot');
+    src: local('☺'), url('/fonts/calibri.woff') format('woff'), url('/fonts/calibri.ttf') format('truetype'), url('/fonts/calibri.svg') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+

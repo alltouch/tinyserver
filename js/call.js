@@ -29,3 +29,32 @@ $(function(){
         return false;
     });
 });
+
+
+$('#popup-call form,#slider form').submit(function(e){
+    e.preventDefault();
+
+    var errorBlock = $(this).find('.text');
+    var submitBtn = $(this).find('input[type=submit]');
+
+    var Calls = Parse.Object.extend("Calls");
+    var call = new Calls();
+    call.save(
+        {
+            name: this.name.value,
+            phone: this.phone.value
+        },
+        {
+            success: function(object){
+                errorBlock.text('Ваша заявка отправлена на обработку. В ближайшее время с вами свяжется наш менеджер.');
+                submitBtn.css('display', 'none');
+                setTimeout(function(){
+                    submitBtn.css('display', 'inline');
+                }, 10000);
+            },
+            error: function(object, error){
+                errorBlock.text('Свяжитесь пожалуйста с нами по телефону.')
+            }
+        }
+    );
+});

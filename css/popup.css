@@ -1,0 +1,82 @@
+.popup-call{
+    position : fixed;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%;
+    background: #284374;
+    background: rgba(40, 67, 116, 0.7);
+    display: none;
+}
+
+.popup-call form{
+    margin: -161px 0 0 -318px;
+    background: url(/images/home/popup.png) 0 0 no-repeat;
+    width : 436px;
+    height: 188px;
+    padding: 85px 100px 50px;
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.popup-call .title{
+    text-align: center;
+    font-size: 33px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.popup-call .text{
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.popup-call input[type=text]{
+    color: #fff;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid #80ce80;
+    box-sizing: border-box;
+    padding: 0 6px;
+    width: 85px;
+    height: 30px;
+}
+
+.popup-call input[type=text] + input[type=text]{
+    width : 160px;
+}
+
+.popup-call input[type=text]::-webkit-input-placeholder {
+    color:    #fff;
+    opacity: 0.6;
+}
+.popup-call input[type=text]::-moz-placeholder {
+    color:    #fff;
+    opacity: 0.6;
+}
+.popup-call input[type=text]:-ms-input-placeholder {
+    color:    #fff;
+    opacity: 0.6;
+}
+
+.popup-call input[type=submit]{
+    box-sizing: border-box;
+    border: none;
+    background: #35b135;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.popup-call div.error{
+    color: red;
+    margin-top : 15px;
+    font-size: 14px;
+}
