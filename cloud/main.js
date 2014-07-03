@@ -6,23 +6,16 @@ Parse.Cloud.define("hello", function(request, response) {
 });
 
 Parse.Cloud.define("sendEmail", function(request, response){
-    var Mandrill = require('mandrill');
-    Mandrill.initialize('byDbxXgWFN-qHwlmUDDLIg');
-    Mandrill.sendEmail({
-        message: {
-            text: request.params.name + ": " + request.params.phone,
-            subject: "New Order from makeawish",
-            from_email: "parse@cloudcode.com",
-            from_name: "Make a wish bot",
-            to: [
-                {
-                    email: "shavaran@gmail.com",
-                    name: "Kirill S."
-                }
-            ]
-        },
-        async: true
-    },{
+    var module = require('cloud/email');
+    module.sendEmail({
+        text: request.params.name + ": " + request.params.phone,
+        subject: "New Order from makeawish",
+        to: [
+            {
+                email: "shavaran@gmail.com",
+                name: "Kirill S."
+            }
+        ],
         success: function(httpResponse) {
             console.log(httpResponse);
             response.success({
@@ -37,5 +30,15 @@ Parse.Cloud.define("sendEmail", function(request, response){
                 text: "Uh oh, something went wrong"
             });
         }
+    });
+});
+
+Parse.Cloud.afterSave("Calls", function(request) {
+    var name = request.object.get("name");
+    var phone = request.object.get("phone");
+
+    Parse.Cloud.run('sendEmail', {
+        name: name,
+        phone: phone
     });
 });

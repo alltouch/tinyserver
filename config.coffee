@@ -46,7 +46,8 @@ exports.config =
         'vendor.js': /^vendor/
       order:
         before: [
-          'vendor/jquery-1.10.1.min.js'
+          'vendor/jquery-1.10.1.min.js',
+          'vendor/parse-1.2.18.min.js'
         ]
 
     stylesheets:
@@ -55,9 +56,9 @@ exports.config =
   sourceMaps: false
 
   conventions:
-#    ignored: (path) ->
-#      endsWith sysPath.basename(path), ['.min.js', '.prod.js', '2.1.0.js']
-    assets: /assets[\\/]/
+    ignored: (path) ->
+      endsWith sysPath.basename(path), ['.debug.js']
+#    assets: /assets[\\/]/
 
 #  optimize: true
 
