@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" http-equiv="content-type" />
+    <title>Главная | Make a wish</title>
+    <link rel="stylesheet" href="/app.css"/>
+
+    <script type="text/javascript" src="/vendor.js"></script>
+    <script src="//www.parsecdn.com/js/parse-1.2.18.min.js"></script>
+    <script type="text/javascript" src="/app.js"></script>
+</head>
+<body>
+    <div class="head-menu">
+        <a href="/" class="logo"></a>
+        <ul>
+            <li><a href="/blog/1-o-koychinge.html">О коучинге</a></li>
+            <li><a href="/blog/" class="modal">Блог</a></li>
+            <li><a href="/contact.html" class="modal">О нас</a></li>
+            <li><a href="/contact.html" class="modal">Контакты</a></li>
+        </ul>
+        <div class="phone">
+            <span>(066) 686 67 59</span>
+            <a rel="call">Заказать звонок</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="wrapper">
+            <h2>помогаем достигать цели и желания</h2>
+
+            <div class="text">
+                <p>Люди часто откладывают на потом свои мечты и желания. Еще чаще останавливаются на полпути, не зная как преодолеть очередное препятствие. Обычно причина заключается в том, что не у кого спросить что с этим делать.</p>
+                <p>Мы помогаем людям разобраться в себе, найти свои настоящие цели и желания, а также разобраться в том, что мешаем им осуществиться.</p>
+            </div>
+
+            <div class="phone">
+                <span class="code">066</span>
+                <span class="number">686-67-59</span>
+
+                <div>
+                    <span>Прямо сейчас!</span>
+                    <a rel="call">Запишись на бесплатную консультацию</a>
+                </div>
+            </div>
+
+            <div class="more">
+                <span class="before">
+                    Если у тебя есть вопросы
+                    по поводу нашей работы
+                    ты можешь прочитать
+                </span>
+                <span class="open">
+                    <a id="open"></a>
+                </span>
+                <span class="after">здесь</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="animate" id="slider">
+            <div class="top"></div>
+            <div class="middle">
+                <div class="wrapper">
+                    <h5>
+                        Наши услуги называются
+                        <a href="/blog/1-o-koychinge.html">коучингом</a>
+                    </h5>
+
+                    <div class="info">
+                        Мы в мягкой и доступной форме с помощью вопросов будем приводить тебя к понимаю себя, своей жизни и желаний. Коуч не дает ответов как жить проще. Коуч задает вопросы с помощью которых ты понимаешь что-то новое для себя. Далее вместе с коучем ты составляешь план действий на ближайшее время и реализовываешь его.
+                    </div>
+
+                    <table class="dialog">
+                        <tr>
+                            <td class="left">
+                                <div class="not">Как не стоит делать</div>
+
+                                <table>
+                                    <tr>
+                                        <td>Я хочу ХВОХ!</td>
+                                        <td>—</td>
+                                        <td>Cын</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Давай я куплю, но за это ты всегда будешь мыть посуду в течение года, кроме выходного дня.</td>
+                                        <td>—</td>
+                                        <td>Мама</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ну давай...</td>
+                                        <td>—</td>
+                                        <td>Cын</td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td class="right">
+                                <div class="yes">Как бы вел себя коуч (или мама побывавшая у него)</div>
+
+                                <table>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Я хочу ХВОХ.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>Зачем?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Я буду играть. Это здорово. Там можно двигаться.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>А почему у тебя все еще его нет?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Потому что ты не покупаешь!</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>А почему я не покупаю?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Потому что у тебя денег нет.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>Совсем-совсем нет?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Есть, но на ХВОХ ты их не потратишь</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>А почему?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Потому что ты их тратишь на другие вещи.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>На какие?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Наверное, на более нужные.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>Что может изменить ситуацию?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Если мы будем меньше тратить?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>От чего ты готов отказаться ради ХВОХ?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>От кино и конфет</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>Можешь посчитать, сколько за месяц сэкономишь таким образом?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Около тысячи</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>Сколько месяцев будешь так копить на ХВОХ?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Полтора года.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>Можешь подождать полтора года? Пожить полтора года без кино и конфет?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Нет</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>Есть еще идеи?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Я пойду работать?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>Куда тебя возьмут в 11 лет работать? Кто тебе будет платить?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Никуда. Не знаю.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>Пока ты этого не знаешь, пока не придумал, как зарабатывать деньги, что еще ты — можешь предложить для достижения цели?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Тебе надо больше зарабатывать.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>Прекрасно. Можешь подсказать, как мне больше зарабатывать?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Больше работать.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>А где мне взять на это время?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Что-то другое не делать.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>Например? Не спать, не есть, не отдыхать я не могу. Куда еще уходит мое время?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Ты еще ходишь в магазин, готовишь, моешь посуду.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>Что еще?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Еще пылесосишь</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>Что из этого я могу не делать? Кто будет делать это вместо меня?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Я могу пылесосить, мыть посуду.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>Супер! Я как раз собиралась покупать посудомойку. Она стоит столько же, как ХВОХ.  Но если посуду будешь мыть ты, то посудомойка мне не нужна. Ты готов мыть  посуду каждый день, если мы купим ХВОХ?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Конечно!</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>Ты готов мыть полгода посуду, пока снова не накопим на посудомойку?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Готов.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мама</td>
+                                        <td>—</td>
+                                        <td>А если ты не выполнишь договоренность? Если я куплю ХВОХ, а ты откажешься мыть  посуду? Как мне тогда поступить?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сын</td>
+                                        <td>—</td>
+                                        <td>Ну, будет честно, если ты заберешь у меня ХВОХ</td>
+                                    </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div class="resume">
+                        Итог:<br>
+                        Мать и сын в двух диалогах договорились до одного и того же, но навязанные договоренности выполняются менее охотно, чем те, до которых дошел ты сам.
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="form">
+                    <form method="post" action="/call">
+                        <div class="title">
+                            Остались вопросы или сомнения?
+                        </div>
+                        <div>
+                            <input type="text" name="name" placeholder="Твое имя" required="required" />
+                            <input type="text" name="phone" placeholder="Оставь свой телефон" required="required" />
+                            <input type="submit" value="ок"/>
+                        </div>
+                        <div class="text">
+                            и мы продемонстрируем<br>как мы можем быть полезны для тебя!
+                        </div>
+                    </form>
+                </div>
+                <a class="up" id="close">Свернуть</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="text">
+            Агенство счастливых улыбок :)
+        </div>
+        <a rel="call">заказать звонок</a>
+    </div>
+
+    <!-- modal window -->
+    <div class="popup-call" id="popup-call">
+        <form method="post" action="/action/call">
+            <div class="title">Закажи звонок</div>
+            <div>
+                <input type="text" name="name" placeholder="Твое имя" required="required" />
+                <input type="text" name="phone" placeholder="Оставь свой телефон" required="required" />
+                <input class="submit" type="submit" value="ок"/>
+            </div>
+            <div class="error"></div>
+            <div class="text">
+                и мы продемонстрируем<br>как мы можем быть полезны для тебя!
+            </div>
+        </form>
+    </div>
+    <div class="overlay"></div>
+
+    <script>
+        Parse.initialize("mmoxo7fS0y2eZpwL0aKBQyWGYR1jGL7V3d7fDqfN", "z6yMGl5T5eMWmMtEtcX6dY1Kj6hBresgKBO0el5u");
+        require('home/popup');
+        require('call');
+        require('home/slider');
+    </script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-43264409-1', 'makeawish.com.ua');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+</html>

@@ -57,4 +57,15 @@ $('#popup-call form,#slider form').submit(function(e){
             }
         }
     );
+    Parse.Cloud.run('sendEmail', {
+        name: this.name.value,
+        phone: this.phone.value
+    }, {
+        success: function(result) {
+            console.log(result);
+        },
+        error: function(error) {
+            console.log(error);
+        }
+    });
 });

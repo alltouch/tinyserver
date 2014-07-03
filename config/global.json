@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "_default": {
+            "link": "makeawish"
+        }, 
+        "makeawish": {
+            "applicationId": "mmoxo7fS0y2eZpwL0aKBQyWGYR1jGL7V3d7fDqfN", 
+            "masterKey": "q6mpz3c6i5qmip3WnGEgiLn8hfRQ2BkUUaOrUo44"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.18"
+    }
+}
