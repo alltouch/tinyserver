@@ -2,19 +2,19 @@
 <html>
 <head>
     <meta charset="utf-8" http-equiv="content-type" />
-    <title>Главная | Make a wish</title>
+    <title>Помогаем достигать цели и желания | Make a wish</title>
     <link rel="stylesheet" href="/app.css"/>
 
     <script type="text/javascript" src="/vendor.js"></script>
-    <script src="//www.parsecdn.com/js/parse-1.2.18.min.js"></script>
+    <!--script src="//www.parsecdn.com/js/parse-1.2.18.min.js"></script-->
     <script type="text/javascript" src="/app.js"></script>
 </head>
-<body>
+<body class="home">
     <div class="head-menu">
         <a href="/" class="logo"></a>
         <ul>
-            <li><a href="/blog/1-o-koychinge.html">О коучинге</a></li>
-            <li><a href="/blog/" class="modal">Блог</a></li>
+            <li><a href="/blog/couching.html">О коучинге</a></li>
+            <li><a href="/blog.html" class="modal">Блог</a></li>
             <li><a href="/contact.html" class="modal">О нас</a></li>
             <li><a href="/contact.html" class="modal">Контакты</a></li>
         </ul>
@@ -381,7 +381,7 @@
     <div class="overlay"></div>
 
     <script>
-        Parse.initialize("mmoxo7fS0y2eZpwL0aKBQyWGYR1jGL7V3d7fDqfN", "z6yMGl5T5eMWmMtEtcX6dY1Kj6hBresgKBO0el5u");
+        require('initialize');
         require('home/popup');
         require('call');
         require('home/slider');

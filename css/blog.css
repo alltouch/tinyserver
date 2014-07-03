@@ -1,0 +1,70 @@
+body.blog{
+    background: url(/images/blog/bg-blog.jpg) 50% 0 no-repeat #fff;
+}
+
+.articles{
+    padding: 50px 35px 100px 35px;
+}
+
+.articles .article{
+    margin-bottom: 40px;
+}
+
+.articles .article h6{
+    font-family: Calibri, 'Conv_calibri', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #006595;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+.articles .article h6 a{
+    text-decoration: none;
+    color: #006595;
+}
+
+.articles .article .body{
+    font-size: 14px;
+    line-height: 20px;
+    color: #006595;
+    margin-bottom: 5px;
+}
+
+.articles .article > a{
+    font-size: 14px;
+    line-height: 20px;
+    color: #006595;
+}
+
+.page{
+    padding: 50px 35px 100px 35px;
+}
+
+.page h3{
+    font-family: Calibri, 'Conv_calibri', serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #006595;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+.page .body{
+    font-size: 14px;
+    line-height: 20px;
+    color: #006595;
+    margin-bottom: 5px;
+}
+
+.page .body p{
+    margin: 0 0 30px;
+}
+
+.page .body p.highlight{
+    box-shadow: #00699a 1px 1px 3px;
+    opacity: 0.5;
+    width: 400px;
+    padding: 10px;
+    margin-left: -20px;
+}

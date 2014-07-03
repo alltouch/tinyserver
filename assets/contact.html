@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" http-equiv="content-type" />
+    <title>Блог | Make a wish</title>
+    <link rel="stylesheet" href="/app.css"/>
+
+    <script type="text/javascript" src="/vendor.js"></script>
+    <script type="text/javascript" src="/app.js"></script>
+</head>
+<body class="blog">
+    <div class="head-menu">
+        <a href="/" class="logo"></a>
+        <ul>
+            <li><a href="/blog/1-o-koychinge.html">О коучинге</a></li>
+            <li><a href="/blog.html" class="active">Блог</a></li>
+            <li><a href="/contact.html">О нас</a></li>
+            <li><a href="/contact.html">Контакты</a></li>
+        </ul>
+        <div class="phone">
+            <span>(066) 686 67 59</span>
+            <a rel="call">Заказать звонок</a>
+        </div>
+    </div>
+
+    <div class="content">
+
+        Если вы хотите пообщаться или заехать к нам в гости - звоните 066 686 67 59
+
+        А для самых настойчивых форма отправки сообщения
+
+
+
+    </div>
+
+    <div class="footer">
+        <div class="text">
+            Агенство счастливых улыбок :)
+        </div>
+        <a rel="call">заказать звонок</a>
+    </div>
+
+    <!-- modal window -->
+    <div class="popup-call" id="popup-call">
+        <form method="post" action="/action/call">
+            <div class="title">Закажи звонок</div>
+            <div>
+                <input type="text" name="name" placeholder="Твое имя" required="required" />
+                <input type="text" name="phone" placeholder="Оставь свой телефон" required="required" />
+                <input class="submit" type="submit" value="ок"/>
+            </div>
+            <div class="error"></div>
+            <div class="text">
+                и мы продемонстрируем<br>как мы можем быть полезны для тебя!
+            </div>
+        </form>
+    </div>
+    <div class="overlay"></div>
+
+    <script>
+        Parse.initialize("mmoxo7fS0y2eZpwL0aKBQyWGYR1jGL7V3d7fDqfN", "z6yMGl5T5eMWmMtEtcX6dY1Kj6hBresgKBO0el5u");
+        require('home/popup');
+        require('call');
+    </script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-43264409-1', 'makeawish.com.ua');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+</html>

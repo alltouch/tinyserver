@@ -1,289 +1,72 @@
-/* reviews */
-.reviews {
-    float: left;
-    width: 100%;
-    margin: 80px 0 0 0;
+body.blog{
+    background: url(/images/blog/bg-blog.jpg) 50% 0 no-repeat #fff;
 }
-.reviews h2 {
+
+.articles{
+    padding: 50px 35px 100px 35px;
+}
+
+.articles .article{
+    margin-bottom: 40px;
+}
+
+.articles .article h6{
+    font-family: Calibri, 'Conv_calibri', serif;
+    font-size: 20px;
+    font-weight: bold;
     color: #006595;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+.articles .article h6 a{
+    text-decoration: none;
+    color: #006595;
+}
+
+.articles .article .body{
+    font-size: 14px;
+    line-height: 20px;
+    color: #006595;
+    margin-bottom: 5px;
+}
+
+.articles .article > a{
+    font-size: 14px;
+    line-height: 20px;
+    color: #006595;
+}
+
+.page{
+    padding: 50px 35px 100px 35px;
+}
+
+.page h3{
+    font-family: Calibri, 'Conv_calibri', serif;
     font-size: 28px;
-    font-style: italic;
-    float: left;
-    width: 260px;
-    margin: 0 0 20px 250px;
-}
-.reviews .review {
-    float: left;
-    width: 525px;
-    margin: 30px 0 0 100px;
-}
-.reviews .review img {
-    display: block;
-    float: left;
-    border: 10px solid #e3e7ee;
-    width: 105px;
-    height: 105px;
-    margin: -30px 20px 50px 0;
-    border-radius: 75px;
-    -webkit-border-radius:75px;
-    -moz-border-radius: 75px;
-}
-.reviews .review .tit {
-    float: left;
+    font-weight: bold;
     color: #006595;
-    font-size: 14px;
-    font-weight: 700;
-    font-style: italic;
-}
-.reviews .review p {
-    float: left;
-    color: #006595;
-    font-size: 14px;
-    margin: 5px 0;
-    width: 380px;
-}
-.reviews .review .date {
-    float: left;
-    color: #c4c4c4;
-    font-size: 11px;
-}
-.reviews .next {
-    float: left;
-    clear: both;
-    margin: 0 0 20px 245px;
-    color: #006595;
-    font-size: 14px;
-    box-shadow: 2px 1px 1px #006595;
-    padding: 3px 10px;
-    cursor: pointer;
-    background: #fff;
-    behavior: url("pie/PIE.htc");
+    margin: 0 0 20px;
+    text-transform: uppercase;
 }
 
-/* content page */
-.content_page {
-    background: url("../images/bg_content.png") top center no-repeat;
-}
-.leftcol {
-    float: left;
-    width: 650px;
-    padding: 70px 20px 0 30px;
-}
-.leftcol .post {
-    float: left;
-    width: 100%;
-    margin: 0 0 40px 0;
-}
-.leftcol .post img {
-    display: block;
-    float: left;
-    border: 5px solid #fff;
-    width: 210px;
-    height: 210px;
-    margin: 0 20px 50px -30px;
-    border-radius: 150px;
-    -webkit-border-radius:150px;
-    -moz-border-radius: 150px;
-    box-shadow: 0 0 10px 5px #cecece;
-    behavior: url("pie/PIE.htc");
-}
-.leftcol .post .tit {
-    font-size: 18px;
-    font-weight: 700;
-    font-family: Calibri, 'Conv_calibri', serif;
-    color: #006595;
-    display: block;
-    float: left;
-    width: 330px;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    margin: 10px 0;
-}
-.leftcol .post p {
+.page .body{
     font-size: 14px;
     line-height: 20px;
     color: #006595;
-    display: block;
-    float: left;
-    padding: 0 40px 0 0;
-    margin: 0;
-}
-.leftcol .post .rm {
-    float: left;
-    clear: both;
-    font-size: 14px;
-    line-height: 20px;
-    color: #006595;
-    display: block;
-    margin: 10px 0;
-}
-.leftcol .post .container {
-    overflow: hidden;
+    margin-bottom: 5px;
 }
 
-/* sidebar */
-.sidebar {
-    float: left;
-    width: 260px;
-    margin: 150px 0 0 0;
-}
-.send {
-    display: block;
-    padding: 5px 10px;
-    float: left;
-    background: #fff;
-    box-shadow: 0 0 10px 5px #e7e7e7;
-}
-.send span {
-    color: #cecece;
-    font-family: Calibri, 'Conv_calibri', serif;
-    font-size: 19px;
-    line-height: 16px;
-    letter-spacing: -1px;
-    display: block;
-    float: left;
-}
-.send input[type="text"] {
-    border: 1px solid #dcdcdc;
-    line-height: 24px;
-    font-size: 14px;
-    color:#006595;
-    font-weight: 700;
-    padding: 0 5px;
-    height: 26px;
-    outline: none;
-    margin: 5px 0;
-    width: 170px;
-    background: #fff;
-}
-.send input[type="text"]::-webkit-input-placeholder {color:#006595;}
-.send input[type="text"]::-moz-placeholder {color:#006595;}
-.send input[type="submit"] {
-    border: 2px solid #fff;
-    line-height: 24px;
-    font-size: 14px;
-    color:#006595;
-    text-transform: uppercase;
-    padding: 1px 5px 2px 5px;
-    height: 30px;
-    font-weight: 700;
-    cursor: pointer;
-    outline: none;
-    background: #fff;
-}
-.readmore {
-    float: left;
-    margin: 30px 0;
-    width: 100%;
-}
-.readmore h2 {
-    font-size: 18px;
-    font-weight: 700;
-    font-family: Calibri, 'Conv_calibri', serif;
-    color: #006595;
-    display: block;
-    float: left;
-    width: 100%;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    margin: 10px 0;
-}
-.readmore .item {
-    float: left;
-    width: 100%;
-    margin: 10px 0;
-}
-.readmore .item .date {
-    float: left;
-    color: #c4c4c4;
-    font-size: 11px;
-}
-.readmore .item a {
-    color: #588cad;
-    font-size: 14px;
-    text-decoration: none;
-    line-height: 18px;
-    display: block;
-    float: left;
-    width: 100%;
-    margin:5px 0;
+.page .body p{
+    margin: 0 0 30px;
 }
 
-/* page */
-.page {
-    float: left;
-    width: 100%;
-    margin: 0 0 40px 0;
-}
-.page img {
-    display: block;
-    float: left;
-    border: 5px solid #fff;
-    width: 210px;
-    height: 210px;
-    margin: 0 20px 20px -30px;
-    border-radius: 150px;
-    -webkit-border-radius:150px;
-    -moz-border-radius: 150px;
-    box-shadow: 0 0 10px 5px #cecece;
-    behavior: url("pie/PIE.htc");
-}
-.page .tit {
-    font-size: 24px;
-    font-weight: 700;
-    font-family: Calibri, 'Conv_calibri', serif;
-    color: #006595;
-    display: block;
-    float: left;
-    width: 380px;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    margin: 40px 0 0 0;
-}
-.page .tit span {
-    font-size: 38px;
-    width: 100%;
-    float: left;
-}
-.page .text {
-    font-size: 14px;
-    line-height: 20px;
-    color: #006595;
-    display: block;
-    float: left;
-    width: 100%;
-    margin: 0;
-}
-.page .text p {
-    padding: 0 40px 0 0;
-    clear: both;
-}
-.page .next {
-    float: left;
-    clear: both;
-    margin: 20px 0 20px 0;
-    color: #006595;
-    font-size: 14px;
-    box-shadow: 2px 1px 1px #006595;
-    padding: 3px 10px;
-    cursor: pointer;
-    background: #fff;
-    behavior: url("pie/PIE.htc");
-}
-.page .import {
-    color: #a3bcce;
-    font-weight: 700;
-    float: left;
-    font-size: 16px;
-    padding: 20px;
-    width: 500px;
-    margin: 10px 0 20px -20px;
-    border: 1px solid #e3e7ee;
-    box-shadow: 2px 1px 3px #588cad;
-    behavior: url("pie/PIE.htc");
-    background: #fff;
+.page .body p.highlight{
+    box-shadow: #00699a 1px 1px 3px;
+    opacity: 0.5;
+    width: 400px;
+    padding: 10px;
+    margin-left: -20px;
 }
 @font-face {
     font-family: 'Conv_calibri';
@@ -293,13 +76,22 @@
     font-style: normal;
 }
 
-
 body {
     font-family: Arial, sans-serif;
-    background: url(/images/home/bg-all.jpg) 50% 43px no-repeat #fff;
     margin: 0;
     padding: 0;
     min-width: 980px;
+}
+
+.content{
+    width: 100%;
+    min-width: 980px;
+    max-width: 980px;
+    position: relative;
+    margin: 0 auto;
+}
+body.home{
+    background: url(/images/home/bg-all.jpg) 50% 43px no-repeat #fff;
 }
 
 .head-menu{
@@ -332,14 +124,12 @@ body {
 
 .head-menu ul li{
     float: left;
-    margin-left: 47px;
-    padding-left: 17px;
+    margin-left: 30px;
 }
 
 .head-menu ul li:first-child{
     list-style: none;
     margin-left: 0;
-    padding-left: 0;
 }
 
 .head-menu ul li a{
@@ -347,6 +137,14 @@ body {
     font-family: Arial, serif;
     color: #1b78a4;
     text-decoration: none;
+    padding: 2px 17px;
+}
+
+.head-menu ul li a.active{
+    background: #1b78a4;
+    color: #fff;
+    border-radius: 6px;
+    cursor: default;
 }
 
 .head-menu .phone{
@@ -377,11 +175,7 @@ body {
     cursor: pointer;
 }
 
-.content{
-    width: 100%;
-    min-width: 980px;
-    max-width: 980px;
-    position: relative;
+body.home .content{
     margin: 0 auto -15px;
     height: 440px;
 }
@@ -412,7 +206,7 @@ body {
 .content .text p{
     color: #fff;
     font-size: 14px;
-    margin: 0 0 20px;
+    margin: 0 0 19px;
 }
 
 .content .text p+p{
@@ -420,7 +214,7 @@ body {
 }
 
 .content .phone{
-    margin: 0 0 40px -10px;
+    margin: 0 0 38px -10px;
 }
 
 .content .phone .code{
@@ -486,7 +280,7 @@ body {
 }
 
 .content .more .before{
-    width: 190px;
+    width: 192px;
     margin-right: 5px;
     text-align: right;
 }
@@ -578,6 +372,14 @@ body {
     font-size: 11px;
     line-height: 11px;
     color: #fff;
+}
+
+.slider table.dialog td.left{
+    padding-left: 20px;
+}
+
+.slider table.dialog td.right{
+    padding-right: 20px;
 }
 
 .slider table.dialog td.left td:first-child{
