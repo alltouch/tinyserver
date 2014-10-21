@@ -91,7 +91,7 @@
   globals.require.brunch = true;
 })();
 require.register("call", function(exports, require, module) {
-$(function(){
+/*$(function(){
     var errorBlock = $('#popup .error');
     $('#popup form').submit(function(){
 
@@ -121,11 +121,21 @@ $(function(){
 
         return false;
     });
-});
+});        */
 
 
 $('#popup-call form,#slider form').submit(function(e){
     e.preventDefault();
+
+    if(this.name.value.length < 3){
+        alert('Заполните пожалуйста поле Имя');
+        return false;
+    }
+
+    if(this.phone.value.length < 8){
+        alert('Заполните пожалуйста поле Телефон');
+        return false;
+    }
 
     var errorBlock = $(this).find('.text');
     var submitBtn = $(this).find('input[type=submit]');
